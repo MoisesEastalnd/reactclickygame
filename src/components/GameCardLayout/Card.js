@@ -1,14 +1,15 @@
 import React from "react";
+import "./style.css";
 
-function Card() {
+function Card(props) {
     return(
-     <div className ="card">
-       <div className = "card-body">
-         <div className = "card-image">
-
-         </div>
-       </div>
-     </div>
+    <div className="card">
+    <div className="img-container">
+    <img alt={props.name} src={props.image} />
+    </div>
+    <div className="content">
+    </div>
+    </div>
 
     );
 }

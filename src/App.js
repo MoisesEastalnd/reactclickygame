@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import Navbar from './components/NavbarLayout/Navbar';
 import './App.css';
+import images from "./images.json";
 
 
 class App extends Component{
+  state = {
+    images
+  };
   render() {
     return (
       <div className ='App'>
