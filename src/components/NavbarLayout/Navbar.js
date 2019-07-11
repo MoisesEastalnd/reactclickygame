@@ -5,7 +5,7 @@ class Navbar extends Component {
     return (
       <nav className='navbar bg-dark'>
         <h1>
-        Navbar
+        <i className={this.props.icon}/> {this.props.title}
         </h1>
       </nav>
     );
