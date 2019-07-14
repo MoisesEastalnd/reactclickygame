@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
-import "./style.css";
-
- function Card(props) {
-     return(
-         <div className="card">
-
-         <div className="img-container">
-           <img alt={props.url} src={props.image}/>
-         </div>
-            <div className="content">
-         <ul>
-           <li>
-            <strong>Name:</strong> {props.name}
-           </li>
-         </ul>
-            </div>
-
-         </div>
-     )
- }
-
+import images from './../../images.json';
+ class Card extends Component {
+   
+  render() {
+    return (
+      <div clasName="card text-center">
+        <div className="card-body card-img-top">
+        <img alt={this.props.url} src={this.props.url}/>
+        </div>
+        <div className="content">
+        <ul>
+        <li>
+             {this.props.images}
+        </li>
+        </ul>
+        </div>
+      </div>
+    );
+  }
+}
 
 export default Card;
+
