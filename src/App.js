@@ -4,7 +4,10 @@ import Jumbotron from './components/JumbotronLayout/Jumbotron';
 import Card from './components/GameCardLayout/Card';
 import images from './images.json';
 import Wrapper from './components/Wrapper/Wrapper';
+
 export class App extends Component {
+
+  
   render() {
     return (
       <div>

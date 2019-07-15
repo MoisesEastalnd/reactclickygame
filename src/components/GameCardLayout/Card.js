@@ -4,14 +4,14 @@ import images from './../../images.json';
    
   render() {
     return (
-      <div clasName="card text-center">
-        <div className="card-body card-img-top">
+      <div clasName="card">
+        <div className="img-container">
         <img alt={this.props.url} src={this.props.url}/>
         </div>
         <div className="content">
         <ul>
         <li>
-             {this.props.images}
+             
         </li>
         </ul>
         </div>

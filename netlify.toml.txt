@@ -1,0 +1,4 @@
+[build]
+base= "reactclickygame/"
+publish = "reactclickgame/build/"
+command = "npm build"
